@@ -40,7 +40,7 @@ export default class Example extends React.Component {
                 <NavLink href="/about">Cinema</NavLink>
               </NavItem>	
               <NavItem>
-                <NavLink href="#">Get Updates</NavLink>
+                <NavLink href="https://neonrated.us14.list-manage.com/subscribe?u=4f45b7400a51b0fd03ac81caa&id=2ad1827210" targer="_blank">Get Updates</NavLink>
               </NavItem>	
               <NavItem>
                 <NavLink href="#"><i className="fa fa-twitter"></i></NavLink>
