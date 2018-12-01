@@ -100,3 +100,5 @@ video {
 .footr .split:last-child img{margin:0;}
 p.soc-iconz{margin-bottom:16px;margin-top:20px;}
 input.bg-cs {border: none;padding: 10px 16px;font-size: 18px;}
+.popup-overlay {background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0% !important;}
+.popup-content iframe {margin-bottom: -5px;}

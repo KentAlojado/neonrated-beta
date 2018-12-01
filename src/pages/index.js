@@ -1,6 +1,7 @@
 import React from 'react'
 import "font-awesome/css/font-awesome.min.css";
-import Layout from '../components/layout';
+import Layout from "../components/layout";
+import Popup from "reactjs-popup";
 import RoadmapIMG from "../images/bg-roadmap.jpg";
 const IndexPage = () => (
   <Layout>
@@ -9,7 +10,19 @@ const IndexPage = () => (
 <h1>BORDER</h1>
 <div className="c-content">
 Now Playing // Director: Ali Abbasi
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/QMs28A1s1OA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+</Popup>
+<a href="#"><span>WEBSITE</span></a>
+</div>
+
+
 </div>
 </div>
 </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import "font-awesome/css/font-awesome.min.css";
 import LogoIMG from "../images/logo-full.svg";
 import "./navigation.css";
 import {
@@ -37,23 +38,26 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#">Events</NavLink>
+                <NavLink href="#">Auteurs</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Communities</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/about">About</NavLink>
+                <NavLink href="/about">Cinema</NavLink>
               </NavItem>	
               <NavItem>
-                <NavLink href="#">Partners</NavLink>
-              </NavItem>
+                <NavLink href="#">Get Updates</NavLink>
+              </NavItem>	
               <NavItem>
-                <NavLink href="#">Mischief</NavLink>
+                <NavLink href="#"><i className="fa fa-twitter"></i></NavLink>
               </NavItem>			  
               <NavItem>
-                <NavLink href="/blog">Shop</NavLink>
-              </NavItem>			  			  
+                <NavLink href="#"><i className="fa fa-facebook"></i></NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#"><i className="fa fa-instagram"></i></NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#"><i className="fa fa-youtube"></i></NavLink>
+              </NavItem>			  
             </Nav>
           </Collapse>
         </Navbar>
