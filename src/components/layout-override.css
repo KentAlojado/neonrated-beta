@@ -1,0 +1,102 @@
+@media screen and (min-width:721px){
+.ColThree{float:left;width:33%;margin:32px 0;padding:0px 15px;}
+.two-thirds, .one-third{float: left;}
+.two-thirds {width: 70%;}
+.one-third{width:30%;}
+.frm-sec input[type="email"] {margin-right: 6px;}
+}
+@media screen and (min-width:641px){
+.split {float: left;width: 50%;}
+.split:last-child{text-align:right;}
+.FootBlog img {float: left;margin-right: 10px;max-width:90px;height:80px;}
+.steps-step-2 {float: left;width: 20%;text-align: center;}
+.frm-sec select, .from-sec input {float: left;}
+}
+@media screen and (max-width:640px){
+.FootBlog img {float: left;margin-right: 10px;max-width:90px;height:80px;}
+.ColThree {text-align: center;}
+.FootBlog {text-align: left;}
+.steps-step-2 {float:none;width:100%;text-align: center;}
+.Evnt-Soc .ColThree img{max-width:320px;}
+.bg-black.footr{text-align:center;}
+}
+body{
+font-family:sans-serif;font-size:16px;
+}
+.logo-sec{padding:1rem 0;}
+.navbar-brand img {margin-bottom:0;max-width:180px;}
+.wrapping .nav-item {padding: .5rem .3rem 0;margin: 0;}
+.wrapping .navbar {padding:0;}
+.bg-grey-dark.banner-sec {
+position: relative;
+background-color: black;
+height: 75vh;
+min-height: 25rem;
+width: 100%;
+overflow: hidden;
+}
+.bg-cs {background-color: #9cffde;}
+.bg-cs:hover{background-color: #000;transition-duration:.3s;}
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.c-cover {background-size: cover;color: #fff;background-position: center;}
+.c-cover .wrapping.home {padding: 14% 0;}
+.wrapping.home {padding: 3rem 0;}
+.wrapping.home.center {text-align:center;}
+.wrapping{max-width:86%;margin:0 auto;}
+.wrapping.home h3 {padding: 0;margin: .75rem 0;}
+.wrapping.home img {margin-bottom: 0;}
+.cheading {margin: .75rem 0;font-size: 32px;}
+.third-wrap, .split-wrap{overflow:auto;padding:12px 0;}
+.bg-grey-dark {background-color: #292929;}
+.text-white {color: #fff;}
+.c-cover h1 {font-size:3.4rem;text-transform:uppercase;}
+.button-sec {display: block;padding: 1rem 0;margin-top:1rem;}
+.button-sec a {padding: 15px 25px;color: #fff;background-color:transparent;font-size: 24px;border-radius:4px;border:1px solid #fff;}
+.button-sec a:hover{text-decoration:none;color:#fff;border:1px solid #000;background:#000;transition-duration:.3s;}
+.button-sec a:first-child {margin-right: 14px;}
+.leading-loose {margin-bottom: 14px;}
+.Border-Sec{background-image:url(../images/border-bg.jpg);}
+.Monster-Sec{background-image:url(../images/monsters-and-men-sundance.jpg);}
+.Ti-Sec{background-image:url(../images/ti.jpg);}
+.Ass-Sec{background-image:url(../images/ass.jpg);}
+.Vox-Sec{background-image:url(../images/vox.jpg);}
+.Bum-Sec{background-image:url(../images/bbum.jpg);}
+.Blf-Sec{background-image:url(../images/blf.jpg);}
+.Wild-Sec{background-image:url(../images/wild-rose.jpg);}
+.Ap-Sec{background-image:url(../images/ap.jpg);}
+.Gemini-Sec{background-image:url(../images/gemini.jpg);}
+.Borg-Sec{background-image:url(../images/borg.jpg);}
+.Rev-Sec{background-image:url(../images/revenge.jpg);}
+.Tonya-Sec{background-image:url(../images/tonya.jpg);}
+.Brats-Sec{background-image:url(../images/beach-rats.jpg);}
+.Ingrid-Sec{background-image:url(../images/ingrid.jpg);}
+.Bside-Sec{background-image:url(../images/bside.jpg);}
+.Batch-Sec{background-image:url(../images/batch.jpg);}
+.Risk-Sec{background-image:url(../images/risk.jpg);}
+.Collosal-Sec{background-image:url(../images/cll.jpg);}
+.footer-widget-sec .ColThree h3 {margin: .75rem 0;border-bottom: 1px dashed #ddd;padding: .75rem 0;}
+.FootBlog {padding-left: 0;margin-left:0;}
+.FootBlog li {list-style: none;margin-bottom:20px;overflow: auto;}
+.FootBlog h4 {margin: 12px 0;}
+.bg-black{background-color:#000;}
+.footr.bg-black{padding:2rem 0;}
+.bg-black .wrapping.split-wrap {font-size: 14px;}
+.iconz {border: 2px solid #fff;padding: 12px 10px 8px;margin-right: 6px;border-radius: 50%;}
+.bg-black i.fa-facebook {padding: 0 2px;}
+.bg-black i {font-size: 20px;}
+.footr .split:last-child img{margin:0;}
+p.soc-iconz{margin-bottom:16px;margin-top:20px;}
+input.bg-cs {border: none;padding: 10px 16px;font-size: 18px;}
