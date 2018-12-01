@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Daybreaker',
+        name: 'Neonrated',
         short_name: 'starter',
         start_url: '/',
         background_color: '#663399',
