@@ -19,7 +19,7 @@ Now Playing // Director: Ali Abbasi
   >
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/QMs28A1s1OA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 </Popup>
-<a href="#"><span>WEBSITE</span></a>
+<a href="https://www.bordermovie.us/" target="_blank"><span>WEBSITE</span></a>
 </div>
 
 
@@ -32,7 +32,18 @@ Now Playing // Director: Ali Abbasi
 <h1>Monsters and Men</h1>
 <div className="c-content">
 In Theaters Now // Director: Reinaldo Marcus Green
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/4AnpybNQ-hU?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+</Popup>
+<a href="http://www.monstersandmenfilm.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
+
+
 </div>
 </div>
 </div>
