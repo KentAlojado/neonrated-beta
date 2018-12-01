@@ -1,6 +1,6 @@
 {
-  "name": "Neonrated Beta",
-  "description": "Neon Rated Site Development Phase",
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
