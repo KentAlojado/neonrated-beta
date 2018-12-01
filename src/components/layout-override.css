@@ -68,25 +68,25 @@ video {
 .button-sec a:hover{text-decoration:none;color:#fff;border:1px solid #000;background:#000;transition-duration:.3s;}
 .button-sec a:first-child {margin-right: 14px;}
 .leading-loose {margin-bottom: 14px;}
-.Border-Sec{background-image:url(../images/border-bg.jpg);}
-.Monster-Sec{background-image:url(../images/monsters-and-men-sundance.jpg);}
-.Ti-Sec{background-image:url(../images/ti.jpg);}
-.Ass-Sec{background-image:url(../images/assassin.jpg);}
-.Vox-Sec{background-image:url(../images/vox.jpg);}
-.Bum-Sec{background-image:url(../images/beach-bum.jpg);}
-.Blf-Sec{background-image:url(../images/blf.jpg);}
-.Wild-Sec{background-image:url(../images/wild-rose.jpg);}
-.Ap-Sec{background-image:url(../images/apollo.jpg);}
-.Gemini-Sec{background-image:url(../images/gemini-img.jpg);}
-.Borg-Sec{background-image:url(../images/borg.jpg);}
-.Rev-Sec{background-image:url(../images/revenge.jpg);}
-.Tonya-Sec{background-image:url(../images/tonya.jpg);}
-.Brats-Sec{background-image:url(../images/beach-rats.jpg);}
-.Ingrid-Sec{background-image:url(../images/ingrid.jpg);}
-.Bside-Sec{background-image:url(../images/bside.jpg);}
-.Batch-Sec{background-image:url(../images/batch.jpg);}
-.Risk-Sec{background-image:url(../images/risk.jpg);}
-.Collosal-Sec{background-image:url(../images/cll.jpg);}
+.Border-Sec{background-image:url("../images/border-bg.jpg");}
+.Monster-Sec{background-image:url("../images/monsters-and-men-sundance.jpg");}
+.Ti-Sec{background-image:url("../images/ti.jpg");}
+.Ass-Sec{background-image:url("../images/assassin.jpg");}
+.Vox-Sec{background-image:url("../images/vox.jpg");}
+.Bum-Sec{background-image:url("../images/beach-bum.jpg");}
+.Blf-Sec{background-image:url("../images/blf.jpg");}
+.Wild-Sec{background-image:url("../images/wild-rose.jpg");}
+.Ap-Sec{background-image:url("../images/apollo.jpg");}
+.Gemini-Sec{background-image:url("../images/gemini-img.jpg");}
+.Borg-Sec{background-image:url("../images/borg.jpg");}
+.Rev-Sec{background-image:url("../images/revenge.jpg");}
+.Tonya-Sec{background-image:url("../images/tonya.jpg");}
+.Brats-Sec{background-image:url("../images/beach-rats.jpg");}
+.Ingrid-Sec{background-image:url("../images/ingrid.jpg");}
+.Bside-Sec{background-image:url("../images/bside.jpg");}
+.Batch-Sec{background-image:url("../images/batch.jpg");}
+.Risk-Sec{background-image:url("../images/risk.jpg");}
+.Collosal-Sec{background-image:url("../images/cll.jpg");}
 .footer-widget-sec .ColThree h3 {margin: .75rem 0;border-bottom: 1px dashed #ddd;padding: .75rem 0;}
 .FootBlog {padding-left: 0;margin-left:0;}
 .FootBlog li {list-style: none;margin-bottom:20px;overflow: auto;}
