@@ -70,7 +70,16 @@ Available Now // Director: Tim Wardle
 <h1>Assassination Nation</h1>
 <div className="c-content">
 In Theaters Now // Director: Sam Levinson
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/vTmFKZmp1aE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="https://www.assassinationnationmovie.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
@@ -80,7 +89,16 @@ In Theaters Now // Director: Sam Levinson
 <h1>Vox Lux</h1>
 <div className="c-content">
 In Theaters Dec 7 // Director: Brady Corbet
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/zxdVqr4hmZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="https://www.voxluxmovie.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
@@ -90,10 +108,19 @@ In Theaters Dec 7 // Director: Brady Corbet
 <h1>The Beach Bum</h1>
 <div className="c-content">
 In Theaters Mar 22, 2019 // Director: Harmony Korine
-<div className="button-sec"><a href="#"><span>TRAILER</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/PiPecJE30hA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
 </div>
 </div>
 </div>
+</div>
+
 
 <div className="Blf-Sec c-cover">  
 <div className="wrapping home center">
@@ -118,7 +145,15 @@ In Theaters May 19, 2019 // Director: Tom Harper
 <h1>Apollo 11</h1>
 <div className="c-content">
 Coming Soon // Director: Todd Douglas Miller
-<div className="button-sec"><a href="#"><span>TRAILER</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/BNKM8YpTmVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+</div>
 </div>
 </div>
 </div>
@@ -128,7 +163,16 @@ Coming Soon // Director: Todd Douglas Miller
 <h1>Gemini</h1>
 <div className="c-content">
 Available Now // Director: Aaron Katz
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/XPYjNfP0Mxk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="https://www.geminithefilm.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
@@ -138,7 +182,16 @@ Available Now // Director: Aaron Katz
 <h1>Borg vs McEnroe</h1>
 <div className="c-content">
 Available Now // Director: Janus Metz
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/S1S4mWgbhIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="https://www.borgvsmcenroemovie.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
@@ -148,7 +201,16 @@ Available Now // Director: Janus Metz
 <h1>Revenge</h1>
 <div className="c-content">
 Available Now // Director: Coralie Fargeat
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/wEVxKimr1MU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="https://www.revengefilm.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
@@ -158,7 +220,16 @@ Available Now // Director: Coralie Fargeat
 <h1>I, Tonya</h1>
 <div className="c-content">
 Available Now // Director: Craig Gillespie
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/d2iy5y0YjGM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="http://www.itonyamovie.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
@@ -168,7 +239,15 @@ Available Now // Director: Craig Gillespie
 <h1>Beach Rats</h1>
 <div className="c-content">
 Available Now // Director: Eliza Hittman
-<div className="button-sec"><a href="#"><span>TRAILER</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/df0TQJBkPP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+</div>
 </div>
 </div>
 </div>
@@ -178,7 +257,16 @@ Available Now // Director: Eliza Hittman
 <h1>Ingrid Goes West</h1>
 <div className="c-content">
 Available Now // Director: Matt Spicer
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/2STZ5D3yi74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="http://www.ingridgoeswestfilm.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
@@ -188,7 +276,16 @@ Available Now // Director: Matt Spicer
 <h1>The B-Side: Elsa Dorfman's Portrait Photography</h1>
 <div className="c-content">
 Available Now // Director: Errol Morris
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/mZSTFnUaKsM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="http://bsidefilm.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
@@ -198,7 +295,16 @@ Available Now // Director: Errol Morris
 <h1>The Bad Batch</h1>
 <div className="c-content">
 Available Now // Director: Ana Lily Amirpour
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/4aJeVSMaf20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="http://badbatchfilm.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
@@ -208,7 +314,16 @@ Available Now // Director: Ana Lily Amirpour
 <h1>Risk</h1>
 <div className="c-content">
 Available Now // Director: Laura Poitras
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/1teM525rVlc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="http://riskfilm.org/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
@@ -218,7 +333,16 @@ Available Now // Director: Laura Poitras
 <h1>Colossal</h1>
 <div className="c-content">
 Available Now // Director: Nacho Vigalondo
-<div className="button-sec"><a href="#"><span>TRAILER</span></a><a href="#"><span>WEBSITE</span></a></div>
+<div className="button-sec">
+<Popup
+    trigger={<a href="#" className="button">TRAILER</a>}
+    modal
+    closeOnDocumentClick
+  >
+<iframe width="100%" height="360" src="https://www.youtube.com/embed/LRqCFSrHPWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</Popup>
+<a href="http://sheiscolossal.com/" target="_blank"><span>WEBSITE</span></a>
+</div>
 </div>
 </div>
 </div>
