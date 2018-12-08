@@ -347,7 +347,6 @@ Available Now // Director: Nacho Vigalondo
 </div>
 </div>
 
-
   </Layout>
 )
 

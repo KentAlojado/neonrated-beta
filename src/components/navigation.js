@@ -1,6 +1,7 @@
 import React from 'react';
 import "font-awesome/css/font-awesome.min.css";
 import LogoIMG from "../images/logo-full.svg";
+import NavModal from "../components/nav-modal";
 import "./navigation.css";
 import {
   Collapse,
@@ -9,12 +10,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink } from 'reactstrap';
+  NavLink, } from 'reactstrap';
 
 export default class Example extends React.Component {
   constructor(props) {
     super(props);
-
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false
@@ -34,7 +34,7 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#">Auteurs</NavLink>
+                <NavLink href="#"><NavModal /></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/about">Cinema</NavLink>
