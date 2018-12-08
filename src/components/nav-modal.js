@@ -24,7 +24,7 @@ class ModalExample extends React.Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
 		<ModalHeader toggle={this.toggle}>Auteurs</ModalHeader>
           <ModalBody>
-            <ul>
+            <ul className="split">
 				<li><a href="https://www.geminithefilm.com/" target="_blank">Aaron Katz</a></li>
 				<li><a href="https://www.bordermovie.us/" target="_blank">Ali Abbasi</a></li>
 				<li><a href="http://badbatchfilm.com/" target="_blank">Ana Lily Amirpour</a></li>
@@ -34,6 +34,8 @@ class ModalExample extends React.Component {
 				<li><a href="">Eliza Hittman</a></li>
 				<li><a href="">Harmony Korine</a></li>
 				<li><a href="https://www.borgvsmcenroemovie.com/" target="_blank">Janus Metz</a></li>
+			</ul>
+			<ul className="split">
 				<li><a href="">John Chester</a></li>
 				<li><a href="http://riskfilm.org/" target="_blank">Laura Poitras</a></li>
 				<li><a href="http://www.ingridgoeswestfilm.com/" target="_blank">Matt Spicer</a></li>
@@ -44,7 +46,8 @@ class ModalExample extends React.Component {
 				<li><a href="">Todd Douglas Miller</a></li>
 				<li><a href="">Tom Harper</a></li>
 			</ul>
-          </ModalBody>
+		  <p className="footnotes">This is a footnote. The texts are replaceable. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia eu erat non tempus.</p>
+          </ModalBody>	  
         </Modal>
       </div>
     );
