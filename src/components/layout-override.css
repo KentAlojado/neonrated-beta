@@ -11,6 +11,8 @@
 .FootBlog img {float: left;margin-right: 10px;max-width:90px;height:80px;}
 .steps-step-2 {float: left;width: 20%;text-align: center;}
 .frm-sec select, .from-sec input {float: left;}
+.modal-content {padding: 0 10%;}
+.modal-dialog {position: relative;}
 }
 @media screen and (max-width:640px){
 .FootBlog img {float: left;margin-right: 10px;max-width:90px;height:80px;}
@@ -19,6 +21,8 @@
 .steps-step-2 {float:none;width:100%;text-align: center;}
 .Evnt-Soc .ColThree img{max-width:320px;}
 .bg-black.footr{text-align:center;}
+.modal-content {padding: 0 5%;}
+.modal-dialog {position: relative;}
 }
 body{
 font-family:sans-serif;font-size:16px;
@@ -104,15 +108,16 @@ input.bg-cs {border: none;padding: 10px 16px;font-size: 18px;}
 .popup-content {background-color: #000 !important;border: none !important;}
 .popup-content iframe {margin-bottom: -5px;}
 .modal-dialog {
-	max-width:100%;width:100%;
+	max-width: 100%;
+	width: 100%;
 	margin: 0;
 	height: 100%;
-	position: fixed;
-	left:0;
+	left: 0;
 	top: 0;
-	background-color: #fff;
+	background: url(../images/ps-bg.jpg) center bottom no-repeat;
+	background-size: cover;
 }
-.modal-content {border-radius: 0;border:none;}
+.modal-content {border-radius: 0;border:none;background-color:transparent;}
 .modal-body ul{margin-left:0;}
 .modal-body ul li {list-style: none;border-bottom: 1px solid #e0e0e0;padding-bottom: 10px;max-width:96%;}
 .modal-body ul li a{text-decoration:none;color:rgba(0,0,0,.7);}
